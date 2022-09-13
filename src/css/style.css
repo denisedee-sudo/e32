@@ -1,0 +1,36 @@
+.menu {
+    background-color: orange;
+    font-size: 32px;
+    color: black;
+    padding: 20px;
+}
+.imageContainer{
+    width: 100%;
+}
+.search{
+    max-width:400px !important;
+}
+.pointer{
+    cursor: pointer !important;
+}
+.hover-big{
+    transition: transform .35s;
+}
+.hover-big:hover{
+    transform: scale(1.04);
+}
+.visible-lg {
+    visibility: hidden !important;
+    }
+
+    @media only screen and (min-width: 992px) {
+        .visible-lg {
+        visibility: visible !important;
+        }
+    }
+
+    @media only screen and (max-width: 575px) {
+        .invisible-xs {
+        display: none !important;
+        }
+    }
