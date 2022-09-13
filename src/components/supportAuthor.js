@@ -1,8 +1,6 @@
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import '../css/style.css';
-// import TwitterTimelineEmbed from "react-twitter-embed";
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import a0 from '../images/Volume Covers/0.jpg'
 import a1 from '../images/Volume Covers/1.jpg'
 import a2 from '../images/Volume Covers/2.jpg'
@@ -21,30 +19,9 @@ import a14 from '../images/Volume Covers/14.jpg'
 import a15 from '../images/Volume Covers/15.jpg'
 import a16 from '../images/Volume Covers/16.jpg'
 import a17 from '../images/Volume Covers/17.jpg'
-const Content = () => {
+const SupportAuthor = () => {
     return(
-        <div className="row">
-                <div className="col-12 col-lg-8 bg-dark" id="News">
-                    <br /><br />
-                    <h1 className="text-white text-center p-2"> News and Updates</h1>
-                    <TwitterTimelineEmbed
-                    sourceType="widget"/>
-                    
-                    <a className="twitter-timeline timeline-center" data-width="1000" data-theme="dark" href="https://twitter.com/Jujutsu_Kaisen_?ref_src=twsrc%5Etfw">Tweets by Jujutsu_Kaisen_</a> 
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-                <div className="col-1 col-lg-4 bg-dark">
-                    <div className="container bg-dark invisible-md">
-                            <br /><br />
-                            <h1 className="text-white text-center p-2">Latest Chapters</h1>
-                            <div className="d-grid m-1">
-                                <button className="btn btn-outline-info hover-big m-1">Chapter 197</button>
-                                <button className="btn btn-outline-info hover-big m-1">Chapter 196</button>
-                                <button className="btn btn-outline-info hover-big m-1">Chapter 195</button>
-                                <button className="btn btn-outline-info hover-big m-1">Chapter 194</button>
-                                <button className="btn btn-outline-info hover-big m-1">Chapter 193</button>
-                            </div>
-                            <br />
+                <div className="container bg-dark invisible-md">
                             <h2 className="text-center text-white"> Support the author, <br /> Gege Akutami</h2>
                             <br />
                             <a href="https://www.simonandschuster.com/books/Jujutsu-Kaisen-0/Gege-Akutami/Jujutsu-Kaisen/9781974720149">
@@ -101,10 +78,8 @@ const Content = () => {
                             <a href="https://www.simonandschuster.com/books/Jujutsu-Kaisen-Vol-17/Gege-Akutami/Jujutsu-Kaisen/9781974732333">
                                 <img className="rounded w-100 p-3 m-1 hover-big" src={a17} alt="vol-17" />
                             </a>                
-                    </div>      
                 </div>
-        </div>
     );
    }
    
-export default Content;
+   export default SupportAuthor;

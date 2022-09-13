@@ -1,3 +1,15 @@
+
+.hover-gradient {
+    transition: .34s;
+  }
+  
+  .hover-gradient:hover {
+    background: linear-gradient(
+      45deg,
+      rgba(111, 66, 193, 0.7),
+      rgba(13, 202, 240, 0.7) 100%
+      ) !important;
+  }
 .menu {
     background-color: orange;
     font-size: 32px;
@@ -34,3 +46,18 @@
         display: none !important;
         }
     }
+    @media only screen and (max-width: 991px) {
+        .invisible-md {
+        display: none !important;
+        }
+    }
+    /* Below code makes element visible only on small screens */
+    .invisible-lg {
+        display: visible;
+        }
+    @media only screen and (min-width: 575px) {
+        .invisible-lg {
+        display: none !important;
+        }
+    }
+    /* Above code makes element visible only on small screens */

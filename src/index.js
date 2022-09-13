@@ -5,7 +5,6 @@ import ReactDOM from 'react-dom/client';
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
-
 import './index.css';
 // import HeadingPart from './components/HeadingPart';
 // import ImageLayout from './components/ImageLayout';
@@ -14,7 +13,8 @@ import Footer from './components/footer';
 import Modals from './components/modals';
 import Carousel from './components/carousel';
 import Content from './components/content';
-// import Modals from './components/modals';
+// import Manga from './pages/manga';
+// import Reader from './pages/reader';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
