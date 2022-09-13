@@ -1,8 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import '../css/style.css';
-import TwitterTimelineEmbed from "react-twitter-embed";
-// import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+// import TwitterTimelineEmbed from "react-twitter-embed";
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 import a0 from '../images/Volume Covers/0.jpg'
 import a1 from '../images/Volume Covers/1.jpg'
 import a2 from '../images/Volume Covers/2.jpg'
@@ -29,19 +29,12 @@ const Content = () => {
                     <br /><br />
                     <h1 className="text-white text-center p-2"> News and Updates</h1>
                     <TwitterTimelineEmbed
-                    options={{
-                        height: 800
-                    }}
+                    sourceType="widget"
                     screenName="Jujutsu_Kaisen_"
-                    sourceType="timeline"
-                    theme="dark"
-                    url="https://twitter.com/Jujutsu_Kaisen_"
-                    userId="Jujutsu_Kaisen_"
-                    />
-
+                    options={{height: 400}} />
                     
-                    {/* <a className="twitter-timeline timeline-center" data-width="1000" data-theme="dark" href="https://twitter.com/Jujutsu_Kaisen_?ref_src=twsrc%5Etfw">Tweets by Jujutsu_Kaisen_</a> 
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> */}
+                    <a className="twitter-timeline timeline-center" data-width="1000" data-theme="dark" href="https://twitter.com/Jujutsu_Kaisen_?ref_src=twsrc%5Etfw">Tweets by Jujutsu_Kaisen_</a> 
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
                 <div className="col-1 col-lg-4 bg-dark">
                     <div className="container bg-dark visible-lg">
