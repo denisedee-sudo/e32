@@ -1,7 +1,7 @@
 import React from 'react';
+import ReactDOM from "react-dom";
 // import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 // import ReactDOM from 'react-dom/client';
-import ReactDOM from "react-dom";
 // import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // Bootstrap CSS

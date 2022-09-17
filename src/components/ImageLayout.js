@@ -1,3 +1,4 @@
+import React from 'react';
 import '../css/style.css';
 import Banner from '../images/C1.png'
 const ImageLayout = () => {
