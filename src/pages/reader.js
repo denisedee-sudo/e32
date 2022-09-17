@@ -2,6 +2,11 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import '../css/style.css';
+import {
+    Navbar,
+    Footer,
+    Modals
+  } from "../components";
 import a1 from "../images/jujutsu-kaisen-chapter-191/191 - 01.png"
 import a2 from "../images/jujutsu-kaisen-chapter-191/191 - 02 - credits.png"
 import a3 from "../images/jujutsu-kaisen-chapter-191/191 - 03.png"
@@ -21,95 +26,100 @@ import a16 from "../images/jujutsu-kaisen-chapter-191/191 - 16.png"
 import a17 from "../images/jujutsu-kaisen-chapter-191/191 - 17.png"
 const Reader = () => {
     return(
-        <div className='row bg-secondary'>
-            <div className='col-12 invisible-xs'>
-                <img alt="Chapter" src={a1} className="d-block w-100" />
-                <img alt="Chapter" src={a2} className="d-block w-100" />
-                <img alt="Chapter" src={a3} className="d-block w-100" />
-                <img alt="Chapter" src={a4} className="d-block w-100" />
-                <img alt="Chapter" src={a5} className="d-block w-100" />
-                <img alt="Chapter" src={a6} className="d-block w-100" />
-                <img alt="Chapter" src={a7} className="d-block w-100" />
-                <img alt="Chapter" src={a8} className="d-block w-100" />
-                <img alt="Chapter" src={a9} className="d-block w-100" />
-                <img alt="Chapter" src={a10} className="d-block w-100" />
-                <img alt="Chapter" src={a11} className="d-block w-100" />
-                <img alt="Chapter" src={a12} className="d-block w-100" />
-                <img alt="Chapter" src={a13} className="d-block w-100" />
-                <img alt="Chapter" src={a14} className="d-block w-100" />
-                <img alt="Chapter" src={a15} className="d-block w-100" />
-                <img alt="Chapter" src={a16} className="d-block w-100" />
-                <img alt="Chapter" src={a17} className="d-block w-100" />
-            </div>
-            <div className="col-12 bg-secondary invisible-lg">
-                        <div id="BSlide" className="carousel slide" data-bs-touch="true" data-bs-keyboard="true" data-bs-wrap="false" data-bs-interval="false">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                    <img alt="Chapter" src={a1} className="d-block w-100" />
+        <div className='container-fluid'>
+            <Navbar></Navbar>
+            <div className='row bg-secondary'>
+                <div className='col-12 invisible-xs'>
+                    <img alt="Chapter" src={a1} className="d-block w-100" />
+                    <img alt="Chapter" src={a2} className="d-block w-100" />
+                    <img alt="Chapter" src={a3} className="d-block w-100" />
+                    <img alt="Chapter" src={a4} className="d-block w-100" />
+                    <img alt="Chapter" src={a5} className="d-block w-100" />
+                    <img alt="Chapter" src={a6} className="d-block w-100" />
+                    <img alt="Chapter" src={a7} className="d-block w-100" />
+                    <img alt="Chapter" src={a8} className="d-block w-100" />
+                    <img alt="Chapter" src={a9} className="d-block w-100" />
+                    <img alt="Chapter" src={a10} className="d-block w-100" />
+                    <img alt="Chapter" src={a11} className="d-block w-100" />
+                    <img alt="Chapter" src={a12} className="d-block w-100" />
+                    <img alt="Chapter" src={a13} className="d-block w-100" />
+                    <img alt="Chapter" src={a14} className="d-block w-100" />
+                    <img alt="Chapter" src={a15} className="d-block w-100" />
+                    <img alt="Chapter" src={a16} className="d-block w-100" />
+                    <img alt="Chapter" src={a17} className="d-block w-100" />
+                </div>
+                <div className="col-12 bg-secondary invisible-lg">
+                            <div id="BSlide" className="carousel slide" data-bs-touch="true" data-bs-keyboard="true" data-bs-wrap="false" data-bs-interval="false">
+                                <div className="carousel-inner">
+                                    <div className="carousel-item active">
+                                        <img alt="Chapter" src={a1} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a2} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a3} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a4} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a5} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a6} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a7} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a8} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a9} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a10} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a11} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a12} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a13} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a14} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a15} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a16} className="d-block w-100" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img alt="Chapter" src={a17} className="d-block w-100" />
+                                    </div>
                                 </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a2} className="d-block w-100" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a3} className="d-block w-100" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a4} className="d-block w-100" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a5} className="d-block w-100" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a6} className="d-block w-100" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a7} className="d-block w-100" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a8} className="d-block w-100" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a9} className="d-block w-100" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a10} className="d-block w-100" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a11} className="d-block w-100" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a12} className="d-block w-100" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a13} className="d-block w-100" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a14} className="d-block w-100" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a15} className="d-block w-100" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a16} className="d-block w-100" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img alt="Chapter" src={a17} className="d-block w-100" />
-                                </div>
+                                {/* Start of Carousel Buttons  */}
+                                <button className="carousel-control-prev" type="button" data-bs-target="#BSlide" data-bs-slide="prev">
+                                    <span className="carousel-control-prev-icon"></span>
+                                    <span className="visually-hidden">Previous</span>
+                                </button>
+                                {/* End ofPrev Button */}
+                                <button className="carousel-control-next" type="button" data-bs-target="#BSlide" data-bs-slide="next">
+                                    <span className="carousel-control-next-icon"></span>
+                                    <span className="visually-hidden">Next</span>
+                                </button>
+                                {/* End of Next Button */}
+                        
                             </div>
-                            {/* Start of Carousel Buttons  */}
-                            <button className="carousel-control-prev" type="button" data-bs-target="#BSlide" data-bs-slide="prev">
-                                <span className="carousel-control-prev-icon"></span>
-                                <span className="visually-hidden">Previous</span>
-                            </button>
-                            {/* End ofPrev Button */}
-                            <button className="carousel-control-next" type="button" data-bs-target="#BSlide" data-bs-slide="next">
-                                <span className="carousel-control-next-icon"></span>
-                                <span className="visually-hidden">Next</span>
-                            </button>
-                            {/* End of Next Button */}
-                    
-                        </div>
+                </div>
             </div>
+            <Footer></Footer>
+            <Modals></Modals>
         </div>
     );
    }

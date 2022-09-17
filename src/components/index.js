@@ -1,0 +1,9 @@
+export { default as Navbar } from "./navbar";
+export { default as Footer } from "./footer";
+export { default as Carousel } from "./carousel";
+export { default as Content } from "./content";
+export { default as Modals } from "./modals";
+export { default as SupportAuthor } from "./supportAuthor";
+export { default as Home } from "../pages/home";
+export { default as Manga } from "../pages/manga";
+export { default as Reader } from "../pages/reader";
