@@ -2,7 +2,7 @@
   "name": "wd11p-exercise-32-de-jesus",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://denisedee-sudo.github.io",
+  "homepage": "https://denisedee-sudo.github.io/e32/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

@@ -20,10 +20,10 @@ const Navbar = () => {
                     <NavLink to="/" className="nav-link p-4 active text-info"> <h3>Home</h3> </NavLink>
                 </li>
                 <li className="nav-item hover-big hover-gradient ">
-                    <NavLink to="/Manga" className="nav-link p-4 text-info"><h3>News and Updates</h3></NavLink>
+                    <NavLink to="/Manga" className="nav-link p-4 text-info"><h3>Chapter List</h3></NavLink>
                 </li>
                 <li className="nav-item hover-big hover-gradient">
-                    <NavLink to="/Reader" className="nav-link p-4 active text-info"><h3>Manga</h3></NavLink>
+                    <NavLink to="/Reader" className="nav-link p-4 active text-info"><h3>Manga Reader</h3></NavLink>
                 </li>
                 <li className="nav-item mx-auto d-block d-sm-none">
                     <form className="input-group p-2 m-1 search" action="">
