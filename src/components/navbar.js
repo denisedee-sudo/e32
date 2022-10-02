@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="myNavbar">
             <ul className="navbar-nav bg-dark text-center">
                 <li className="nav-item hover-big hover-gradient">
-                    <NavLink to="/" className="nav-link p-4 active text-info"> <h3>Home</h3> </NavLink>
+                    <NavLink to="/e32" className="nav-link p-4 active text-info"> <h3>Home</h3> </NavLink>
                 </li>
                 <li className="nav-item hover-big hover-gradient ">
                     <NavLink to="/Manga" className="nav-link p-4 text-info"><h3>Chapter List</h3></NavLink>
