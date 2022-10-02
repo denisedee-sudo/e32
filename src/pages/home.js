@@ -1,11 +1,6 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-// import Navbar from './components/navbar';
-// import Footer from './components/footer';
-// import Modals from './components/modals';
-// import Carousel from './components/carousel';
-// import Content from './components/content';
 import {
     Navbar,
     Footer,
