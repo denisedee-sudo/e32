@@ -16,12 +16,10 @@ ReactDOM.render(
   <Router>
     <Routes>
       <Route path="/e32" element={<Home />} />
-      <Route path="/Manga" element={<Manga />} />
-      <Route path="/Reader" element={<Reader />} />
+      <Route path="/e32/Manga" element={<Manga />} />
+      <Route path="/e32/Reader" element={<Reader />} />
     </Routes>
   </Router>,
 
   document.getElementById("root")
 );
-
-serviceWorker.unregister();
