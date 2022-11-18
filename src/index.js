@@ -10,15 +10,24 @@ import {
   Manga,
   Reader
 } from "./components/index";
-import reportWebVitals from './reportWebVitals';
+import {
+  Navbar,
+  Footer,
+  Modals
+} from "./components";
+// import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <Router>
+  <Router className="container-fluid">
+    <Navbar></Navbar>
+    <br /><br /><br />
     <Routes>
       <Route path="/e32" element={<Home />} />
       <Route path="/e32/Manga" element={<Manga />} />
       <Route path="/e32/Reader" element={<Reader />} />
     </Routes>
+    <Footer></Footer>
+    <Modals></Modals>
   </Router>,
 
   document.getElementById("root")

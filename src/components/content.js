@@ -5,6 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import '../css/style.css';
 // import TwitterTimelineEmbed from "react-twitter-embed";
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import { Link } from "react-router-dom";
 import a0 from '../images/Volume Covers/0.jpg'
 import a1 from '../images/Volume Covers/1.jpg'
 import a2 from '../images/Volume Covers/2.jpg'
@@ -40,11 +41,13 @@ const Content = () => {
                             <br /><br />
                             <h1 className="text-white text-center p-2">Latest Chapters</h1>
                             <div className="d-grid m-1">
-                                <button className="btn btn-outline-info hover-big m-1">Chapter 197</button>
-                                <button className="btn btn-outline-info hover-big m-1">Chapter 196</button>
-                                <button className="btn btn-outline-info hover-big m-1">Chapter 195</button>
-                                <button className="btn btn-outline-info hover-big m-1">Chapter 194</button>
-                                <button className="btn btn-outline-info hover-big m-1">Chapter 193</button>
+                                <button className="btn btn-outline-info hover-big m-1 text-hover-dark">
+                                    <Link to="/e32/Reader" className="text-decoration-none text-info">Chapter 204</Link>
+                                </button>                                
+                                <button className="btn btn-outline-info hover-big m-1">Chapter 203</button>
+                                <button className="btn btn-outline-info hover-big m-1">Chapter 202</button>
+                                <button className="btn btn-outline-info hover-big m-1">Chapter 201</button>
+                                <button className="btn btn-outline-info hover-big m-1">Chapter 200</button>
                             </div>
                             <br />
                             <h2 className="text-center text-white"> Support the author, <br /> Gege Akutami</h2>

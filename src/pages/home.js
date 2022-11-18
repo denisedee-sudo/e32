@@ -2,22 +2,15 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import {
-    Navbar,
-    Footer,
     Carousel,
-    Content,
-    Modals
+    Content
   } from "../components";
 import '../css/style.css';
 const Home = () => {
     return(
-        <div className='container-fluid bg-dark'>
-            <Navbar></Navbar>
-            <br /><br /><br /><br />
+        <div className='bg-dark'>
             <Carousel></Carousel>
-            <Content></Content>
-            <Footer></Footer>
-            <Modals></Modals>
+            <Content className="m-1"></Content>
         </div>
     );
    }

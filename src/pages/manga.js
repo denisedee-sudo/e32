@@ -4,22 +4,24 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import '../css/style.css';
 // import SupportAuthor from "../components/supportAuthor"
 import {
-    Navbar,
-    Footer,
-    Modals,
     SupportAuthor
   } from "../components";
 const Manga = () => {
     return(
         <div className='container-fluid'>
-            <Navbar></Navbar>
-            <br /><br /><br />
             <div className='row'>
                 {/* <div className='col-1 bg-dark'></div> */}
                 <div className='class="col-11 col-lg-8 bg-dark'>
                     <h2 className="text-white text-center pt-5 pb-1">Chapters</h2>
                     <br />
                     <div className='d-grid container pt-5'>
+                        <button className='btn btn-outline-info hover-big mt-1 ms-2 mb-1'> Chapter 204</button>
+                        <button className='btn btn-outline-info hover-big mt-1 ms-2 mb-1'> Chapter 203</button>
+                        <button className='btn btn-outline-info hover-big mt-1 ms-2 mb-1'> Chapter 202</button>
+                        <button className='btn btn-outline-info hover-big mt-1 ms-2 mb-1'> Chapter 201</button>
+                        <button className='btn btn-outline-info hover-big mt-1 ms-2 mb-1'> Chapter 200</button>
+                        <button className='btn btn-outline-info hover-big mt-1 ms-2 mb-1'> Chapter 199</button>
+                        <button className='btn btn-outline-info hover-big mt-1 ms-2 mb-1'> Chapter 198</button>
                         <button className='btn btn-outline-info hover-big mt-1 ms-2 mb-1'> Chapter 197</button>
                         <button className='btn btn-outline-info hover-big mt-1 ms-2 mb-1'> Chapter 196</button>
                         <button className='btn btn-outline-info hover-big mt-1 ms-2 mb-1'> Chapter 195</button>
@@ -224,8 +226,6 @@ const Manga = () => {
                     <SupportAuthor></SupportAuthor>
                 </div>
             </div>
-            <Footer></Footer>
-            <Modals></Modals>
         </div>
         
     );
