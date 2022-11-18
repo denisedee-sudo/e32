@@ -28,13 +28,15 @@ const Content = () => {
     return(
         <div className="row">
                 <div className="col-12 col-lg-8 bg-dark" id="News">
+                    <div className='container'>
                     <br /><br />
-                    <h1 className="text-white text-center p-2"> News and Updates</h1>
-                    <TwitterTimelineEmbed
-                    sourceType="widget"/>
-                    
-                    <a className="twitter-timeline timeline-center" data-width="1000" data-theme="dark" href="https://twitter.com/Jujutsu_Kaisen_?ref_src=twsrc%5Etfw">Tweets by Jujutsu_Kaisen_</a> 
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <h1 className="text-white text-center p-2"> News and Updates</h1>
+                        <TwitterTimelineEmbed
+                        sourceType="widget"/>
+                        
+                        <a className="twitter-timeline timeline-center" data-width="1000" data-theme="dark" href="https://twitter.com/Jujutsu_Kaisen_?ref_src=twsrc%5Etfw">Tweets by Jujutsu_Kaisen_</a> 
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
                 </div>
                 <div className="col-1 col-lg-4 bg-dark">
                     <div className="container bg-dark invisible-md">
@@ -42,7 +44,7 @@ const Content = () => {
                             <h1 className="text-white text-center p-2">Latest Chapters</h1>
                             <div className="d-grid m-1">
                                 <button className="btn btn-outline-info hover-big m-1 text-hover-dark">
-                                    <Link to="/e32/Reader" className="text-decoration-none text-info">Chapter 204</Link>
+                                    <Link to="/e32/Reader" className="text-decoration-none text-info ">Chapter 204</Link>
                                 </button>                                
                                 <button className="btn btn-outline-info hover-big m-1">Chapter 203</button>
                                 <button className="btn btn-outline-info hover-big m-1">Chapter 202</button>

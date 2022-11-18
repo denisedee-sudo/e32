@@ -10,7 +10,7 @@ const Home = () => {
     return(
         <div className='bg-dark'>
             <Carousel></Carousel>
-            <Content className="m-1"></Content>
+            <Content></Content>
         </div>
     );
    }
