@@ -1,4 +1,7 @@
 
+body {
+    overflow-x: hidden;
+}
 .hover-gradient {
     transition: .34s;
   }

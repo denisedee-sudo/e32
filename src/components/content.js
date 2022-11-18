@@ -43,13 +43,19 @@ const Content = () => {
                             <br /><br />
                             <h1 className="text-white text-center p-2">Latest Chapters</h1>
                             <div className="d-grid m-1">
-                                <button className="btn btn-outline-info hover-big m-1 text-hover-dark">
-                                    <Link to="/e32/Reader" className="text-decoration-none text-info ">Chapter 204</Link>
-                                </button>                                
-                                <button className="btn btn-outline-info hover-big m-1">Chapter 203</button>
-                                <button className="btn btn-outline-info hover-big m-1">Chapter 202</button>
-                                <button className="btn btn-outline-info hover-big m-1">Chapter 201</button>
-                                <button className="btn btn-outline-info hover-big m-1">Chapter 200</button>
+                                <Link to="/e32/Reader" className="text-decoration-none text-info ">
+                                    <button className="d-block w-100 btn btn-outline-info hover-big m-1">
+                                    Chapter 204
+                                    </button>
+                                </Link>
+                                <Link to="/e32" className="text-decoration-none">                                
+                                <button className="d-block w-100 btn btn-outline-info hover-big m-1">Chapter 203</button></Link>
+                                <Link to="/e32" className="text-decoration-none">  
+                                <button className="d-block w-100 btn btn-outline-info hover-big m-1">Chapter 202</button></Link>
+                                <Link to="/e32" className="text-decoration-none">  
+                                <button className="d-block w-100 btn btn-outline-info hover-big m-1">Chapter 201</button></Link>
+                                <Link to="/e32" className="text-decoration-none">  
+                                <button className="d-block w-100 btn btn-outline-info hover-big m-1">Chapter 200</button></Link>
                             </div>
                             <br />
                             <h2 className="text-center text-white"> Support the author, <br /> Gege Akutami</h2>
