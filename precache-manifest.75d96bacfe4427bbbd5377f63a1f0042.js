@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "0e422a2c030936913a0a",
-    "url": "/e32/static/css/main.ccba9edf.chunk.css"
+    "revision": "546ee07b9e40030bd4b7",
+    "url": "/e32/static/css/main.b1a5c408.chunk.css"
   },
   {
-    "revision": "0e422a2c030936913a0a",
-    "url": "/e32/static/js/main.0e422a2c.chunk.js"
+    "revision": "546ee07b9e40030bd4b7",
+    "url": "/e32/static/js/main.546ee07b.chunk.js"
   },
   {
-    "revision": "00e6404342efd11afa3b",
-    "url": "/e32/static/css/1.1c06a561.chunk.css"
+    "revision": "185fa564831cfc1cb226",
+    "url": "/e32/static/css/1.f1eab701.chunk.css"
   },
   {
-    "revision": "00e6404342efd11afa3b",
-    "url": "/e32/static/js/1.00e64043.chunk.js"
+    "revision": "185fa564831cfc1cb226",
+    "url": "/e32/static/js/1.185fa564.chunk.js"
   },
   {
     "revision": "6a788adcccac6bd932d4",
@@ -168,6 +168,74 @@ self.__precacheManifest = [
     "url": "/e32/static/media/204 - 19.adccecbe.jpg"
   },
   {
+    "revision": "e5d0091aaefdb4476718ca2dd18a665d",
+    "url": "/e32/static/media/191 - 01.e5d0091a.png"
+  },
+  {
+    "revision": "6c9c338b297a2e669732d6cb480062c4",
+    "url": "/e32/static/media/191 - 02 - credits.6c9c338b.png"
+  },
+  {
+    "revision": "b1ee17ee7103ce24e5a628d30c388aa8",
+    "url": "/e32/static/media/191 - 03.b1ee17ee.png"
+  },
+  {
+    "revision": "9904efc7813c1e131931c42f78e394cc",
+    "url": "/e32/static/media/191 - 04.9904efc7.png"
+  },
+  {
+    "revision": "0fd85fa4811cc3c6ebd7542f731effaf",
+    "url": "/e32/static/media/191 - 05.0fd85fa4.png"
+  },
+  {
+    "revision": "7eec2fef3969a938832a9e2a8618e7bc",
+    "url": "/e32/static/media/191 - 06.7eec2fef.png"
+  },
+  {
+    "revision": "fce9ae594b7b470af4688e1f457dd7c2",
+    "url": "/e32/static/media/191 - 07.fce9ae59.png"
+  },
+  {
+    "revision": "a4fd5675dc4934d8e0da19dd76500e3a",
+    "url": "/e32/static/media/191 - 08.a4fd5675.png"
+  },
+  {
+    "revision": "a2eab50db76bef20e437e5cc8b414675",
+    "url": "/e32/static/media/191 - 09.a2eab50d.png"
+  },
+  {
+    "revision": "08f5f52f142dabf4d91f84a063ddb01e",
+    "url": "/e32/static/media/191 - 10.08f5f52f.png"
+  },
+  {
+    "revision": "07e1a0d1c2fdac7ab0550d6881f2cd40",
+    "url": "/e32/static/media/191 - 11.07e1a0d1.png"
+  },
+  {
+    "revision": "5b5749763f4195a239f6ae4c60a03bda",
+    "url": "/e32/static/media/191 - 12.5b574976.png"
+  },
+  {
+    "revision": "3105e1705268867a4cc3d9f3851eb5b4",
+    "url": "/e32/static/media/191 - 13.3105e170.png"
+  },
+  {
+    "revision": "84fe9adb05ee39a08f9458fdbaa6990e",
+    "url": "/e32/static/media/191 - 14.84fe9adb.png"
+  },
+  {
+    "revision": "1403890e1ca9160013a57f97c535ea4a",
+    "url": "/e32/static/media/191 - 15.1403890e.png"
+  },
+  {
+    "revision": "9b07f824f4a6c00fd6bac0add7e9494e",
+    "url": "/e32/static/media/191 - 16.9b07f824.png"
+  },
+  {
+    "revision": "45c7c69161169889d995d716fed0f54e",
+    "url": "/e32/static/media/191 - 17.45c7c691.png"
+  },
+  {
     "revision": "460c76219d456d56c1f2f5940893cbb0",
     "url": "/e32/static/media/HollowPurple.460c7621.jpg"
   },
@@ -180,7 +248,7 @@ self.__precacheManifest = [
     "url": "/e32/static/media/Welcome Banner.2da84983.png"
   },
   {
-    "revision": "d671d4d7677c62847f1ddab6be8f0eb8",
+    "revision": "94f0f7b4fb15bd2180e4a34806639953",
     "url": "/e32/index.html"
   }
 ];
